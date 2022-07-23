@@ -10,16 +10,13 @@ public class Main {
         for (i = 10; i >= 1; i--) {
             System.out.print(" " + i);
         }
-        System.out.println(" \n");
+        System.out.print(" \n");
 
 //Вторая задача:
         int friday = 2;
         while (friday < 32) {
             System.out.println("Сегодня пятница " + friday + "-е число" + " необходимо подготовить отчет");
             friday = friday + 7;
-
-
-
         }
         System.out.println(" \n");
 
@@ -30,9 +27,6 @@ public class Main {
             if (one > 1850)
                 System.out.println("Комета пролетела рядом с Землёй в " + one + " году");
             one = one + 79;
-            if (one > year - 200);
         }
-
-
     }
 }
